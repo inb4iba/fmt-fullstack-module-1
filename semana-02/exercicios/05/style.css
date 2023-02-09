@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#inventory {
+  margin: 1rem auto;
+  background-color: #976a40;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: fit-content;
+}
+
+#inventory > span {
+  font-family: "Caveat", cursive;
+  font-size: 2.5rem;
+  color: #382009;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.slot {
+  height: 100px;
+  width: 100px;
+  background-color: #382009;
+  border-radius: 0.5rem;
+}
+
+#interactionBtns {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+#interactionBtns > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+#interactionBtns input,
+#interactionBtns button {
+  display: block;
+  padding: 0.5rem 1rem;
+  max-width: 6rem;
+}
+
+.filled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #382009;
+  background-color: #ffc547;
+}
