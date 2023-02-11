@@ -86,3 +86,7 @@ textarea {
 #file-input > img {
   width: 100px;
 }
+
+input[file] {
+  color: red;
+}
