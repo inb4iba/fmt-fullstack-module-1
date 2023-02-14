@@ -17,3 +17,15 @@ function generateTicket(gender, age, isProgrammingStudent, isLab365Student) {
 }
 
 generateTicket("female", 65, true, false);
+
+// if (idade < 18 || !estudanteProgramaco) {
+//   console.log("Entrada não permitida.");
+// } else if (idade > 60 || estudante) {
+//   console.log("Entrada gratuita");
+// } else if(sexo === "feminino"){
+//   precoIngresso = 50;
+// }else {
+//   precoIngresso = 80;
+// }
+
+// console.log(`Preço do ingresso é: R$ ${precoIngresso}`);
