@@ -1,0 +1,126 @@
+:root {
+  --clr-primary: #3273d4;
+  --clr-neutral: #dedede;
+  --clr-positive: #2fcf57;
+  --clr-negative: #cc3d3d;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--clr-primary);
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.header h1 {
+  font-size: 1.75rem;
+}
+
+.indicators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.indicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 218, 218);
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  color: rgb(0, 0, 0);
+  margin: 0 1rem;
+}
+
+.indicator h4 {
+  margin-bottom: 0.5rem;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: min(90%, 1000px);
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: black;
+  background-color: var(--clr-neutral);
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+}
+
+.add-btn {
+  background-color: var(--clr-primary);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  color: var(--clr-neutral);
+  font-size: 1.5rem;
+  filter: brightness(1);
+}
+
+.add-btn:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+.add-btn:active {
+  filter: brightness(1);
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.list {
+  margin: 1rem;
+}
+
+.green {
+  background-color: var(--clr-positive);
+}
+
+.red {
+  background-color: var(--clr-negative);
+  color: white;
+}
+
+.border {
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+}
+
+.border-sm {
+  box-shadow: 2px 2px black;
+}
