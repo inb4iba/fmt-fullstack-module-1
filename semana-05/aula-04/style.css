@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #222;
+  color: white;
+  border-radius: 0.5rem;
+  width: fit-content;
+}
+
+.card img {
+  max-width: 200px;
+}
