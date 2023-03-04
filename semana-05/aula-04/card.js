@@ -1,5 +1,6 @@
 export function createCard(info) {
   const card = document.querySelector(".card");
+  card.classList.remove("hidden");
 
   card.innerHTML = `
   <img

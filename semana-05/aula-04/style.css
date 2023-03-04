@@ -2,6 +2,7 @@ form {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
+  width: 400px;
 }
 
 label {
@@ -15,7 +16,8 @@ textarea {
 }
 
 textarea {
-  min-height: 3rem;
+  min-height: 4rem;
+  width: calc(100%-2rem);
 }
 
 button {
@@ -30,8 +32,14 @@ button {
   color: white;
   border-radius: 0.5rem;
   width: fit-content;
+  max-width: 230px;
 }
 
 .card img {
   max-width: 200px;
+  align-self: center;
+}
+
+.hidden {
+  display: none;
 }
